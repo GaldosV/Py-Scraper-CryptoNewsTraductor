@@ -1,3 +1,4 @@
+import os
 import requests
 from bs4 import BeautifulSoup
 
@@ -25,9 +26,10 @@ def scrape_noticia(url):
 
         # Link de la noticia (el mismo que el proporcionado)
         article_Link = url
+        
+        # Crea la ruta al archivo de texto en la carpeta "Noticias" y llama al archivo noticias + la url 
+        nombre_archivo = os.path.join(os.path.dirname(__file__), 'Noticias', f'noticia_{article_Link.replace("https://", "").replace("/", "_")}.txt')
 
-        # Crea el nombre del archivo basado en el enlace de la noticia para luego hacer busquedas en la BD 
-        nombre_archivo = 'noticia_' + article_Link.replace('https://', '').replace('/', '_') + '.txt'
 
         # Abre el archivo en modo escritura y escribe los datos
         with open(nombre_archivo, 'w', encoding='utf-8') as archivo:

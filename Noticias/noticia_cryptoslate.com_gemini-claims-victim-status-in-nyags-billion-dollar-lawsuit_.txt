@@ -1,0 +1,19 @@
+Título de la noticia: Gemini claims ‘victim’ status in NYAG’s billion-dollar lawsuit
+Contenido de la noticia: Crypto trading platform Gemini has responded to a lawsuit filed against it, bankrupt lender Genesis, and its parent company Digital Currency Group (DCG), by casting itself as a victim of the fraud perpetrated by the other two defendants.
+According to Gemini’s statement on X (formerly Twitter), its addition to the lawsuit was tantamount to “blaming a victim for being defrauded and lied to.”
+On Oct. 19, New York Attorney General Letitia James filed a complaint against Gemini, Genesis, DCG, and two executives, including Genesis former CEO Michael Moro and DCG CEO Barry Silbert, for allegedly defrauding investors of over $1 billion through the defunct Gemini Earn investment program.
+Gemini Earn was an investment program that allowed investors to earn interest from lending money to Genesis, who also lent it to others.
+According to the regulator, Gemini repeatedly lied to investors about this investment program by repeatedly assuring them that it was a low-risk investment while knowing that Genesis’s finances were risky and had exposure to the defunct Three Arrows Capital (3AC) and Sam Bankman-Fried‘s embattled Alameda Research.
+The regulator cited Gemini’s failure to inform investors of its downgrade of Genesis’ capital ratings to Junk Grade (CCC) from Investment Grade (BBB) as one of the many lies pushed by the exchange.
+On the other hand, NYAG alleged that Genesis, its parent company, DCG, and their executives defrauded investors and the public by trying to conceal more than $1.1 billion in losses, which investors bore.
+Consequently, NYAG seeks to permanently ban these companies and their executives from operating in New York. Additionally, the regulator is also seeking restitution for all affected customers.
+Letitia James, New York’s Attorney General, said:
+“Hardworking New Yorkers and investors around the country lost more than a billion dollars because they were fed blatant lies that their money would be safe and grow if they invested it in Gemini Earn. Instead, Gemini hid the risks of investing with Genesis and Genesis lied to the public about its losses.”
+In its Oct. 19 statement on X (formerly Twitter), the cryptocurrency exchange said the NYAG lawsuit proved its claim that the bankrupt lender and its parent company conspired “to lie and defraud Gemini, Earn users, and other creditors.”
+It said:
+“The NY AG’s lawsuit confirms what we’ve been saying all along — that Gemini, Earn users, and other creditors were the victims of a massive fraud and systematically “lied to” by these parties about ‘Genesis’s financial condition.'”
+Gemini has been involved in a public spat with DCG,  alleging that it knew the lender had been bankrupt since 2022 but failed to inform investors.
+Genesis and DCG have yet to respond to CryptoSlate’s request for comment as of press time.
+
+Fecha de la Noticia:  Oct. 19, 2023 at 5:00 pm UTC
+Link de la Noticia: https://cryptoslate.com/gemini-claims-victim-status-in-nyags-billion-dollar-lawsuit/

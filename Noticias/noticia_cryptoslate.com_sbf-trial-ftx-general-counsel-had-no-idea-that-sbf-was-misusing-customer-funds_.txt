@@ -1,0 +1,37 @@
+Título de la noticia: SBF Trial – FTX general counsel had ‘no idea’ that SBF was misusing customer funds
+Contenido de la noticia: The final day of Sam Bankman-Fried’s (SBF) trial brought further revelations about what transpired behind the scenes at the exchange as former FTX attorney Can Sun took the stand as the day’s first witness.
+Sun’s testimony revolved around FTX Digital Markets’ terms of service and their pivotal role in the ongoing trial. SBF has publicly used the terms of service to justify some of the losses at FTX.
+Former FTX General Counsel Can Sun — who played a central role in drafting FTX Digital Markets’ updated terms of service in May 2022 — began his testimony with a surprising assertion.
+Under a non-prosecution agreement to protect himself, Sun said he “didn’t do anything wrong” and had “no idea” that the exchange was misusing customer funds.
+Sun testified that when FTX faced a collapse in early November 2022, he engaged in a call with private equity firm Apollo Global. The call aimed to secure an investment to address the massive surge in customer withdrawals.
+Sun told the jury that he was “shocked” to discover that FTX faced a staggering “$7 billion shortfall” in meeting customer withdrawal demands.
+Sun said that following the call, Apollo requested a balance sheet, which was provided by either SBF or former FTX head of product Ramnik Arora. The balance sheet painted a grim picture of FTX’s financial situation.
+Apollo’s response was to decline the investment, but not before seeking explanations for the missing funds. Sun said that SBF directed him to provide “theoretical justifications” for the disappearance of customer funds.
+During his testimony, Sun emphasized that no “theoretical justifications” were supported by factual evidence. He further stated that there was no legal justification for diverting the funds from customer accounts.
+Another critical revelation during Sun’s testimony was related to the scrutiny of FTX’s margin trading defense. SBF frequently cited a section in FTX’s terms of service, which stated that participating in margin trading could result in collateral loss if the account is liquidated.
+Sun disclosed that he had informed SBF that this explanation alone was insufficient to account for the missing $7 billion in customer funds and could not be used to explain the shortfall. He added that SBF acknowledged this at the time but resorted to using it as a justification during his interview with George Stephanopolous.
+To underscore this point, the prosecution played a Dec. 1, 2022, interview of SBF with George Stephanopolous. In the interview, Stephanopolous pointed out that FTX’s terms of service explicitly stated that customer assets would not be loaned out.
+However, Bankman-Fried deflected this by pointing to another section of the terms, the “borrow-lending facility,” also known as trading on margin. It was revealed that this facility required customers to opt in; however, even those who had not signed up for it lost money in the FTX collapse.
+Sun’s cross-examination further explored the terms of service of FTX Digital Markets. The defense has previously indicated that these terms could be central to their case.
+The terms of service clearly outlined FTX’s commitment to safeguarding customer assets and assuring customers that their deposited assets were exclusively theirs. This aligned with the government’s allegations that Alameda Research accessed and spent customer deposits sent to FTX.
+During cross-examination, lead defense lawyer Mark Cohen delved into the margin trading section of the terms. Cohen aimed to ascertain the percentage of users engaged in riskier trading strategies.
+This information could shed light on how many customers suffering losses in the FTX collapse had been involved in such trading. However, Sun couldn’t provide specific numbers, leading Cohen to pivot to other aspects of the terms.
+Cohen also probed into a section concerning account liquidation, where customers were warned they might lose “all” of their assets if backstop liquidity providers could not effectively intervene.
+However, Sun did not have responses to queries related to this section.
+Furthermore, Cohen inquired about Sun’s knowledge regarding Alameda’s exemption from auto-liquidation. Sun testified that he became aware of this exemption in August or September 2022.
+He revealed that he had requested its removal, but SBF and FTX co-founder Gary Wang had resisted. Sun also noted that this carveout for Alameda had never been triggered, as he was informed during the same period.
+Cohen asked Sun why he did not resign at that time, to which the lawyer explained that he was unaware that the special privilege exempting Alameda from liquidation also allowed it to withdraw customer funds from FTX.
+Sun said he learned about the misuse of customer funds on Nov. 7, 2022, when Nishad Singh disclosed it to him, and he submitted his resignation the following day.
+Robert Boroujerdi, a managing director at asset manager Third Point, was the next witness to take the stand. His testimony gave the jury valuable insights into the financial aspects of FTX and its dealings.
+Third Point ultimately invested $60 million in FTX International, an investment Boroujerdi now values at “zero.”
+During his testimony, prosecutor Thane Rehn delved into Boroujerdi’s conversations with SBF before Third Point’s initial $35 million investment in FTX in July 2021.
+Boroujerdi revealed that FTX had not informed him that Alameda was exempt from FTX’s risk engine, meaning its trading accounts could not be liquidated and could go negative infinitely. He added that FTX’s so-called “speedy” risk engine made it feel safe about the investment.
+When asked how his investment strategy would have changed if he had known about Alameda’s special privileges, Boroujerdi stated unequivocally that Third Point would not have proceeded with the investment.
+Furthermore, he pointed out that Third Point would not have participated had they known that the $35 million would be funneled to Alameda or that Alameda could withdraw customer funds from FTX.
+David Lisner conducted the cross-examination of Robert Boroujerdi, aiming to explore the due diligence conducted by Third Point on FTX. However, most of his queries were met with immediate objections, subsequently sustained by Judge Kaplan, leading to limited progress in his line of questioning.
+The trial continues to unravel complex details surrounding FTX, with only a few more witnesses expected to take the stand at the next hearing.
+The prosecution said it is on track to wrap up its case by the next court session on Oct. 26 after presenting the final witnesses from its side.
+The defense said it will present its case once the prosecution rests. However, whether the defense will present an argument and who they might bring to the stand as witnesses is unclear.
+
+Fecha de la Noticia:  Oct. 20, 2023 at 1:23 am UTC
+Link de la Noticia: https://cryptoslate.com/sbf-trial-ftx-general-counsel-had-no-idea-that-sbf-was-misusing-customer-funds/

@@ -2,7 +2,38 @@ import os
 import requests
 from bs4 import BeautifulSoup
 
-
+def obtener_enlaces_noticias(url):
+    enlaces = []
+    
+    # Realiza una solicitud HTTP para obtener la página
+    response = requests.get(url)
+    
+    # Comprueba si la solicitud fue exitosa
+    if response.status_code == 200:
+        # Parsea el contenido de la página web con BeautifulSoup
+        soup = BeautifulSoup(response.text, 'html.parser')
+        
+        # Encuentra el elemento <section id="24 hours">
+        section = soup.find('section', {'id': '24Hours'})
+        
+        if section:
+            # Encuentra el elemento <div class="posts">
+            posts = section.find('div', {'class': 'posts'})
+            
+            if posts:
+                # Encuentra todos los enlaces <a href="">
+                links = posts.find_all('a', href=True)
+                
+                for link in links[:10]:  # Obtén los enlaces de las 10 primeras noticias
+                    enlace = link['href']
+                    enlaces.append(enlace)
+                    print (enlace)
+        else:
+            print('No se pudo encontrar el elemento <section id="24Hours"> en la página.')
+    else:
+        print('No se puede cargar la pagina .')
+    
+    return enlaces
 
 def scrape_noticia(url):
     try:
@@ -72,7 +103,19 @@ def scrape_noticia(url):
 
     except Exception as e:
         print(f'Ocurrió un error: {e}')
-        
+
+
+#Pruebas 
+
+
+url_pagina_noticias = 'https://cryptoslate.com/top-news/'
+enlaces_noticias = obtener_enlaces_noticias(url_pagina_noticias)
+
+# Scrape de todos los enlaces de las noticias 
+for enlace in enlaces_noticias:
+    scrape_noticia(enlace)
+
+
 # Prueba del enlace para  la noticia a scrapear   https://cryptoslate.com/top-news/ https://cryptoslate.com/sec-drops-charges-against-ripple-executives/
-url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'
-scrape_noticia(url_noticia)
+# url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'
+# scrape_noticia(url_noticia)

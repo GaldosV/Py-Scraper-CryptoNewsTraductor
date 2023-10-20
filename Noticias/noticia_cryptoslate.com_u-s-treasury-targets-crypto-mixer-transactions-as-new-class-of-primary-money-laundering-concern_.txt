@@ -1,0 +1,15 @@
+Título de la noticia: U.S. Treasury targets crypto mixer transactions as new class of ‘primary money laundering concern’
+Contenido de la noticia: The U.S. Treasury’s Financial Crimes Enforcement Network (FinCEN) announced on Oct. 19 that it is advancing regulation that could broadly restrict crypto mixers.
+The agency’s Notice of Proposed Rule Making (NPRM) identifies transactions made through convertible virtual currency (CVC) mixing platforms — generally referred to as crypto mixers — as a “class of transactions of primary money laundering concern.”
+Wally Adeyemo, Deputy Secretary of the Treasury, said in a statement:
+“Today’s action underscores Treasury’s commitment to combating the exploitation of Convertible Virtual Currency mixing by a broad range of illicit actors, including state-affiliated cyber actors, cyber criminals, and terrorist groups.”
+The Treasury more broadly noted that the lack of transparency around crypto mixing is a national security risk. FinCEN Director Andrea Gacki, meanwhile, said that coin mixers support ransomware attackers, rogue state actors, and criminals. She added that the newly proposed policy marks FinCEN’s first use of Section 311 of the USA PATRIOT Act to target a class of transactions of primary money laundering concern.
+The Treasury has previously sanctioned individual coin mixers. It sanctioned Tornado Cash in August 2022 and sanctioned Blender.io in May 2022.
+Adeyemo added that the Treasury is “aggressively” fighting other illegal transactions and transfers within the convertible virtual currency (CVC) ecosystem. He specifically mentioned that the government agency is targeting cryptocurrency use by widely recognized terrorist groups such as Hamas and the Palestinian Islamic Jihad.
+The Israel–Hamas war has led to a recent focus on enforcement in this area. On Oct. 18, the Treasury’s Office of Foreign Asset Control (OFAC) imposed sanctions on various Hamas-linked entities. The latest list of sanctions includes one Bitcoin (BTC) address linked to Buy Cash, a Gaza-based cryptocurrency exchange and money transfer platform. The platform’s operator, Ahmed M. M. Alaqad, has also been designated.
+OFAC said that the address in question was one of many seized by Israeli authorities in June 2021. Buy Cash itself has more broadly facilitated crypto transfers for Hamas and other terrorist groups, including the Islamic State of Iraq and Syria (ISIS).
+Also in October, U.S. lawmakers urged the Biden administration to take action against Hamas, and Israeli authorities blocked a number of crypto addresses.
+Analytics group Chainalysis, meanwhile, has attempted to reassure the public that illegal transactions make up only a small portion of crypto transfers.
+
+Fecha de la Noticia:  Oct. 19, 2023 at 8:30 pm UTC
+Link de la Noticia: https://cryptoslate.com/u-s-treasury-targets-crypto-mixer-transactions-as-new-class-of-primary-money-laundering-concern/

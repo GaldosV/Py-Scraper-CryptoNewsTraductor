@@ -27,6 +27,7 @@ def obtener_enlaces_noticias(url):
                 for link in links[:10]:  # Obtén los enlaces de las 10 primeras noticias
                     enlace = link['href']
                     enlaces.append(enlace)
+                    #Imprime por consola los enlaces 
                     print (enlace)
         else:
             print('No se pudo encontrar el elemento <section id="24Hours"> en la página.')
@@ -107,7 +108,7 @@ def scrape_noticia(url):
 
 #Pruebas 
 
-
+# Prueba Global para comprobar que el script funciona
 url_pagina_noticias = 'https://cryptoslate.com/top-news/'
 enlaces_noticias = obtener_enlaces_noticias(url_pagina_noticias)
 
@@ -115,6 +116,7 @@ enlaces_noticias = obtener_enlaces_noticias(url_pagina_noticias)
 for enlace in enlaces_noticias:
     scrape_noticia(enlace)
 
+# prueba individual para comprobar que funciona con 1 noticia 
 
 # Prueba del enlace para  la noticia a scrapear   https://cryptoslate.com/top-news/ https://cryptoslate.com/sec-drops-charges-against-ripple-executives/
 # url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'

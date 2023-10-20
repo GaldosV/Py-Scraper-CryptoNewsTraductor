@@ -15,11 +15,17 @@ def scrape_noticia(url):
         # Extrae el título de la noticia
         title = soup.find('h1', class_='post-title').get_text()
 
-        # Extrae el contenido del artículo (tengo que refinarlo un poco mas por que recoge cosas que no son utiles )
+        #Encontrar el articulo y extraer el contenido
+         
+        # Encuentra el elemento <div class="post-box clearfix">
+        post_box = soup.find('div', class_='post-box clearfix')
+        # Encuentra el elemento <article> dentro de post_box
+        article = post_box.find('article')
+        # Extrae el contenido del artículo
         article_content = ''
-        paragraphs = soup.find_all('p')
+        paragraphs = article.find_all('p')
         for p in paragraphs:
-            article_content += p.get_text() + '\n'
+         article_content += p.get_text() + '\n'
 
         # Extrae la fecha de la noticia 
         article_Date = soup.find('div', class_='post-date').get_text()
@@ -40,7 +46,7 @@ def scrape_noticia(url):
 
         print('Los datos se han guardado en', nombre_archivo)
     else:
-        print('La solicitud no fue exitosa.Algo a fallado')
+        print('No a podido encontrar la pagina web ')
 
 # Prueba del enlace para  la noticia a scrapear   https://cryptoslate.com/top-news/ https://cryptoslate.com/sec-drops-charges-against-ripple-executives/
 url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'

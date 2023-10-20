@@ -12,7 +12,7 @@ def scrape_noticia(url):
         soup = BeautifulSoup(response.text, 'html.parser')
 
         # Extrae el título de la noticia
-        title = soup.find('h1').get_text()
+        title = soup.find('h1', class_='post-title').get_text()
 
         # Extrae el contenido del artículo (tengo que refinarlo un poco mas por que recoge cosas que no son utiles )
         article_content = ''
@@ -20,8 +20,8 @@ def scrape_noticia(url):
         for p in paragraphs:
             article_content += p.get_text() + '\n'
 
-        # Extrae la fecha de la noticia (tengo que encontrar la id de la fecha asi que por ahora e puesto un placeholder)
-        article_Date = soup.find('span', class_='fecha').get_text()
+        # Extrae la fecha de la noticia 
+        article_Date = soup.find('div', class_='post-date').get_text()
 
         # Link de la noticia (el mismo que el proporcionado)
         article_Link = url
@@ -40,6 +40,6 @@ def scrape_noticia(url):
     else:
         print('La solicitud no fue exitosa.Algo a fallado')
 
-# Prueba delenlace para  la noticia a scrapear  
-url_noticia = 'https://www.ejemplo.com/noticia'
+# Prueba del enlace para  la noticia a scrapear   https://cryptoslate.com/top-news/ https://cryptoslate.com/sec-drops-charges-against-ripple-executives/
+url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'
 scrape_noticia(url_noticia)

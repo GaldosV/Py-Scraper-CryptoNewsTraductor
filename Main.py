@@ -26,15 +26,20 @@ def scrape_noticia(url):
         # Link de la noticia (el mismo que el proporcionado)
         article_Link = url
 
-        # Imprime la información en el formato deseado
-        print('Título de la noticia:', title)
-        print('Contenido de la noticia:', article_content)
-        print('Fecha de la Noticia:', article_Date)
-        print('Link de la Noticia:', article_Link)
+        # Crea el nombre del archivo basado en el enlace de la noticia para luego hacer busquedas en la BD 
+        nombre_archivo = 'noticia_' + article_Link.replace('https://', '').replace('/', '_') + '.txt'
 
+        # Abre el archivo en modo escritura y escribe los datos
+        with open(nombre_archivo, 'w', encoding='utf-8') as archivo:
+            archivo.write('Título de la noticia: ' + title + '\n')
+            archivo.write('Contenido de la noticia: ' + article_content + '\n')
+            archivo.write('Fecha de la Noticia: ' + article_Date + '\n')
+            archivo.write('Link de la Noticia: ' + article_Link + '\n')
+
+        print('Los datos se han guardado en', nombre_archivo)
     else:
         print('La solicitud no fue exitosa.Algo a fallado')
 
-# Prueba delenlace para  la noticia a scrapear
+# Prueba delenlace para  la noticia a scrapear  
 url_noticia = 'https://www.ejemplo.com/noticia'
 scrape_noticia(url_noticia)

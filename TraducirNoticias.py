@@ -32,7 +32,7 @@ archivo_txt = "Noticias/1.txt"
 with open(archivo_txt, "r", encoding="utf-8") as file:
     texto_generado_en_ingles = file.read()
 
-clave_de_api = "2f0cf10d-ff5b-3f6c-943f-4bb71deb286b"  # Reemplaza con tu clave de API real 2f0cf10d-ff5b-3f6c-943f-4bb71deb286b
+clave_de_api = ""  # Reemplaza con tu clave de API real 
 
 texto_traducido = traducir_texto(texto_generado_en_ingles, clave_de_api)
 

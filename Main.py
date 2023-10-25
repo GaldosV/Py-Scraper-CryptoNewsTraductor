@@ -2,9 +2,13 @@ import os
 from ScraperNoticias import scrape_noticia
 from ScraperNoticias import obtener_enlaces_noticias
 from TraducirNoticias import traducir_texto
+from ProcesarYGuardar_BD import procesar_txt_y_guardar_en_db, crear_base_de_datos 
 
 # Enlace principal para las noticias
 url_pagina_noticias = 'https://cryptoslate.com/top-news/'
+
+# Llama a la función para crear la base de datos antes de procesar los archivos .txt si no esta creada ya 
+crear_base_de_datos()
 
 # Se obtienen los enlaces de las noticias
 url = obtener_enlaces_noticias(url_pagina_noticias)
@@ -35,10 +39,16 @@ for enlace in url:
         archivo_txt = os.path.join(directorio_noticias, nombre_archivo)
         with open(archivo_txt, "r", encoding="utf-8") as file:
             texto_generado_en_ingles = file.read()
+
         # Realiza la traducción solo si es un archivo nuevo
         texto_traducido = traducir_texto(texto_generado_en_ingles, clave_api)
+
         # Agrega el nombre del archivo a la lista de archivos traducidos
         archivos_traducidos.append(nombre_archivo)
+
+        # Llama a la función para procesar y guardar lso txt  en la base de datos
+        procesar_txt_y_guardar_en_db(archivo_txt)
+
 
 #Pruebas 
 

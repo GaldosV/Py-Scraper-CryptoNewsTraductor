@@ -49,11 +49,3 @@ for enlace in url:
         # Llama a la función para procesar y guardar lso txt  en la base de datos
         procesar_txt_y_guardar_en_db(archivo_txt)
 
-
-#Pruebas 
-
-# prueba individual para comprobar que funciona con 1 noticia 
-
-# Prueba del enlace para  la noticia a scrapear   https://cryptoslate.com/top-news/ https://cryptoslate.com/sec-drops-charges-against-ripple-executives/
-# url_noticia = 'https://cryptoslate.com/sec-drops-charges-against-ripple-executives/'
-# scrape_noticia(url_noticia)
